@@ -45,6 +45,8 @@ extension CoinRowView {
     
     private var leftColumn: some View {
         HStack(spacing: 0) {
+            Image(systemName: coin.rank == 1 ? "trophy.circle.fill" : "")
+                .foregroundColor(Color.yellow)
             Text("\(coin.rank)")
                 .font(.caption)
                 .foregroundColor(Color.theme.secondaryText)
@@ -58,6 +60,7 @@ extension CoinRowView {
                 .padding(.leading, 6)
                 .foregroundColor(Color.theme.accent)
         }
+        .padding(5)
     }
     
     private var centerColumn: some View {
