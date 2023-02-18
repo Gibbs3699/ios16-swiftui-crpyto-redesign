@@ -160,6 +160,7 @@
 		DC04C5A129291AFD00ADC87C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				DC9CF299296DC2CE00F41657 /* HapticManager.swift */,
 				DC04C5A229291B1800ADC87C /* Color.swift */,
 				DC04C5B3292E636B00ADC87C /* PreviewProvider.swift */,
 				DC04C5B7292FBB2C00ADC87C /* Double.swift */,
@@ -350,7 +351,6 @@
 			children = (
 				DCFE6E1E2939FA4100C4F23E /* NetworkingManager.swift */,
 				DCFE6E412940F32500C4F23E /* LocalFileManager.swift */,
-				DC9CF299296DC2CE00F41657 /* HapticManager.swift */,
 			);
 			name = Utilities;
 			path = "Crypto Redesign/Utilities";
